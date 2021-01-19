@@ -1,4 +1,16 @@
 <?php
+// Turn project on or off
+$active = "n";
+if ($active == "y"){
+	
+} elseif ($active == "n"){
+	echo "This project is offline. <br> See <a href='https://github.com/akseltelle/Pi-hole-Domain-Blocker'>https://github.com/akseltelle/Pi-hole-Domain-Blocker</a>";
+	die();
+} else {
+	echo "This project is offline. <br> See <a href='https://github.com/akseltelle/Pi-hole-Domain-Blocker'>https://github.com/akseltelle/Pi-hole-Domain-Blocker</a>";
+	die();
+}
+
 // Turn off all error reporting
 error_reporting(0);
 
