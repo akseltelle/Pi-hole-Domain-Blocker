@@ -1,6 +1,6 @@
 # Pi-hole-Domain-Blocker
 
-*** ABOUT ***
+## *** ABOUT ***
 A simple PHP tool to add / remove websites to block in Pi-Hole (https://pi-hole.net/).
 
 *** CONFIGURATION ***
