@@ -41,12 +41,9 @@ CREATE TABLE `domains` (
 --
 
 INSERT INTO `domains` (`id`, `url`, `date`, `active`) VALUES
-(1, 'norhood.com', '19.01.2021 - 12:14:51pm', 0),
-(2, 'example.com', '19.01.2021 - 12:15:22pm', 0),
-(4, 'youtube.com', '19.01.2021 - 12:17:31pm', 0),
-(5, 'vg.no', '19.01.2021 - 11:27:27pm', 0),
-(6, 'ensjo.no', '19.01.2021 - 11:27:59pm', 0),
-(7, 'api.vg.no', '19.01.2021 - 11:31:58pm', 0);
+(1, 'example.com', '19.01.2021 - 12:14:51pm', 0),
+(2, 'example.net', '19.01.2021 - 12:15:22pm', 0),
+(3, 'example.org', '19.01.2021 - 11:31:58pm', 0);
 
 --
 -- Indexes for dumped tables
@@ -66,7 +63,7 @@ ALTER TABLE `domains`
 -- AUTO_INCREMENT for table `domains`
 --
 ALTER TABLE `domains`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
